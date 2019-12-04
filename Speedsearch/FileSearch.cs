@@ -35,7 +35,6 @@ namespace Speedsearch
                 ErrorMessage = "error " + eex.Message;
                 Zeitdauer = DateTime.Now - Startzeit;
             }
-
         }
 
         public void CheckDirectory(DirectoryInfo Directory)
@@ -50,7 +49,6 @@ namespace Speedsearch
                 CheckDirectory(diTemp);
                 ii--;
             }
-
         }
 
         public void CheckFiles(DirectoryInfo Directory)
